@@ -29,9 +29,9 @@ namespace MusicAppWeb.Pages
 
         }
 
-        public IActionResult OnPost()
+        public async Task<IActionResult> OnPost()
         {
-            _cosmosDbService.DeleteItemAsync(Music.Id);
+            await _cosmosDbService.DeleteItemAsync(Music.Id);
             return Content("Successfully deleted");
         }
     }
