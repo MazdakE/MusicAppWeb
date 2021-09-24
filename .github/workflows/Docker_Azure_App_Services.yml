@@ -1,51 +1,45 @@
-name: workflow to Create an Azure Web app, build and deploy Docker app to the Azure app
+name: Azure Static Web Apps CI/CD
 
-on: push
-
-# CONFIGURATION
-# For help, go to https://github.com/Azure/Actions
-#
-# Set up the following secrets in your repository:
-#   AZURE_CREDENTIALS, REGISTRY_USERNAME, REGISTRY_PASSWORD, AZURE_DEVOPS_TOKEN
-# 2. Change these variables for your configuration:
-env:
-  AZURE_RESOURCE_GROUP: ActionsDemo   # set this to your Azure Resource group's name  
-  AZURE_WEBAPP_NAME: AppWithContainer1   # set this to your application's name
-  AZURE_APP_PLAN: ActionPlan  # set this to your App service plan's name
-  CONTAINER_REGISTRY: actionregistry.azurecr.io   # set this to Container Registry name
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - main
 
 jobs:
-  build-and-deploy-to-dev:
+  build_and_deploy_job:
+    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
-    environment: dev
+    name: Build and Deploy Job
     steps:
-    - uses: actions/checkout@master
-            
-   # Authentication
-    - uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS  }}
-    - uses: azure/docker-login@v1
-      with:
-        login-server: ${{ env.CONTAINER_REGISTRY }}
-        username: ${{ secrets.REGISTRY_USERNAME }}
-        password: ${{ secrets.REGISTRY_PASSWORD }}
-    
-    # Authentication
-    - run: |
-        docker build . -t ${{ env.CONTAINER_REGISTRY }}/app:latest
-        docker push ${{ env.CONTAINER_REGISTRY }}/app:latest
-        
-    # Provision a new Web App
-    - name: Azure CLI script to create a new Web App for Container
-      uses: azure/CLI@v1
-      with:
-        azcliversion: latest
-        inlineScript: |
-          az account show
-          az webapp create --resource-group ${{ env.AZURE_RESOURCE_GROUP }} --plan ${{ env.AZURE_APP_PLAN }} --name ${{ env.AZURE_WEBAPP_NAME }}  -i nginx
-          
-    - uses: azure/webapps-container-deploy@v1
-      with: 
-        app-name: ${{ env.AZURE_WEBAPP_NAME }} 
-        images: '${{ env.CONTAINER_REGISTRY }}/app:latest'
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Build And Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_WATER_0F3B8C303 }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
+          action: "upload"
+          ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
+          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
+          app_location: "./src" # App source code path
+          api_location: "api" # Api source code path - optional
+          output_location: "dist/angular-app" # Built app content directory - optional
+          ###### End of Repository/Build Configurations ######
+
+  close_pull_request_job:
+    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+    runs-on: ubuntu-latest
+    name: Close Pull Request Job
+    steps:
+      - name: Close Pull Request
+        id: closepullrequest
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GREEN_WATER_0F3B8C303 }}
+          action: "close"
