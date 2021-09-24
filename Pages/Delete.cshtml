@@ -1,0 +1,14 @@
+﻿@page
+@model DeleteModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<h1 class="display-4">Delete</h1>
+
+<form method="post">
+    @Html.LabelFor(a => a.Music.Id)
+    <input asp-for="Music.Id" required class="form-control">
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

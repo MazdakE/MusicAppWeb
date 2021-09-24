@@ -1,0 +1,13 @@
+﻿@page
+@model GetModel
+@{
+    ViewData["Title"] = "Get Policy";
+}
+<h1 class="display-4">Get music</h1>
+
+<form method="post">
+    @Html.LabelFor(a => a.SearchTerm.SearchTerm)
+    <input asp-for="SearchTerm.SearchTerm" required class="form-control">
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
