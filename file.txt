@@ -1,0 +1,352 @@
+2021-10-06 13:29:05.839 +02:00 [INF] Starting web host
+2021-10-06 13:29:08.451 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 13:29:09.133 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 13:29:09.141 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 13:29:09.144 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 13:29:09.147 +02:00 [INF] Hosting environment: Development
+2021-10-06 13:29:09.150 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 13:29:10.312 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 13:29:10.372 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 13:29:10.425 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 13:29:10.444 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 13:29:10.450 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 13:29:10.456 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 13:29:10.460 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 13:29:10.565 +02:00 [INF] Executed page /Index in 131.4747ms
+2021-10-06 13:29:10.570 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 13:29:10.578 +02:00 [INF] Request finished in 270.8191ms 200 text/html; charset=utf-8
+2021-10-06 13:29:10.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 13:29:10.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 13:29:10.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 13:29:10.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 13:29:10.579 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 13:29:10.601 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 13:29:10.601 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 13:29:10.626 +02:00 [INF] Request finished in 47.1448ms 200 text/css
+2021-10-06 13:29:10.626 +02:00 [INF] Request finished in 46.7614ms 200 application/javascript
+2021-10-06 13:29:10.646 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 13:29:10.646 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 13:29:10.646 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 13:29:10.653 +02:00 [INF] Request finished in 73.8142ms 200 application/javascript
+2021-10-06 13:29:10.656 +02:00 [INF] Request finished in 76.6537ms 200 text/css
+2021-10-06 13:29:10.660 +02:00 [INF] Request finished in 81.4009ms 200 application/javascript
+2021-10-06 13:29:11.911 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Get  
+2021-10-06 13:29:11.922 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 13:29:11.930 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 13:29:11.935 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnGet - ModelState is "Valid"
+2021-10-06 13:29:11.939 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 13:29:11.943 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 13:29:11.947 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 13:29:11.960 +02:00 [INF] Executed page /Get in 25.3401ms
+2021-10-06 13:29:11.964 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 13:29:11.969 +02:00 [INF] Request finished in 58.2649ms 200 text/html; charset=utf-8
+2021-10-06 13:29:11.976 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 13:29:11.979 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 13:29:11.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 13:29:11.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 13:29:11.989 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 13:29:11.995 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 13:29:12.002 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 13:29:12.005 +02:00 [INF] Request finished in 26.3073ms 200 application/javascript
+2021-10-06 13:29:12.010 +02:00 [INF] Request finished in 32.2557ms 200 text/css
+2021-10-06 13:29:12.015 +02:00 [INF] Request finished in 37.0626ms 200 application/javascript
+2021-10-06 13:29:11.997 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 13:29:11.978 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 13:29:12.043 +02:00 [INF] Request finished in 67.335ms 200 text/css
+2021-10-06 13:29:12.055 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 13:29:12.063 +02:00 [INF] Request finished in 84.5295ms 200 application/javascript
+2021-10-06 13:29:14.283 +02:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Get application/x-www-form-urlencoded 211
+2021-10-06 13:29:14.289 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 13:29:14.294 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 13:29:14.310 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnPostAsync - ModelState is "Valid"
+2021-10-06 13:29:15.122 +02:00 [INF] Searched for song Eminem
+2021-10-06 13:29:15.128 +02:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.ContentResult.
+2021-10-06 13:29:15.135 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2021-10-06 13:29:15.141 +02:00 [INF] Executed page /Get in 842.9248ms
+2021-10-06 13:29:15.145 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 13:29:15.153 +02:00 [INF] Request finished in 871.2383ms 200 text/plain; charset=utf-8
+2021-10-06 13:36:43.079 +02:00 [INF] Starting web host
+2021-10-06 13:36:45.793 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 13:36:46.500 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 13:36:46.504 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 13:36:46.508 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 13:36:46.514 +02:00 [INF] Hosting environment: Development
+2021-10-06 13:36:46.518 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 13:36:47.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 13:36:47.360 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 13:36:47.411 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 13:36:47.430 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 13:36:47.436 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 13:36:47.443 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 13:36:47.448 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 13:36:47.552 +02:00 [INF] Executed page /Index in 131.8066ms
+2021-10-06 13:36:47.557 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 13:36:47.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 13:36:47.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 13:36:47.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 13:36:47.569 +02:00 [INF] Request finished in 271.7589ms 200 text/html; charset=utf-8
+2021-10-06 13:36:47.565 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 13:36:47.566 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 13:36:47.588 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 13:36:47.588 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 13:36:47.604 +02:00 [INF] Request finished in 38.6686ms 200 text/css
+2021-10-06 13:36:47.604 +02:00 [INF] Request finished in 38.4474ms 200 application/javascript
+2021-10-06 13:36:47.615 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 13:36:47.615 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 13:36:47.615 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 13:36:47.621 +02:00 [INF] Request finished in 56.1963ms 200 application/javascript
+2021-10-06 13:36:47.623 +02:00 [INF] Request finished in 57.6514ms 200 application/javascript
+2021-10-06 13:36:47.626 +02:00 [INF] Request finished in 61.0993ms 200 text/css
+2021-10-06 13:36:49.144 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Get  
+2021-10-06 13:36:49.157 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 13:36:49.164 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 13:36:49.169 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnGet - ModelState is "Valid"
+2021-10-06 13:36:49.173 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 13:36:49.177 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 13:36:49.180 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 13:36:49.193 +02:00 [INF] Executed page /Get in 24.5266ms
+2021-10-06 13:36:49.197 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 13:36:49.201 +02:00 [INF] Request finished in 57.7655ms 200 text/html; charset=utf-8
+2021-10-06 13:36:49.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 13:36:49.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 13:36:49.208 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 13:36:49.211 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 13:36:49.210 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 13:36:49.231 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 13:36:49.233 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 13:36:49.231 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 13:36:49.234 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 13:36:49.241 +02:00 [INF] Request finished in 30.8632ms 200 application/javascript
+2021-10-06 13:36:49.244 +02:00 [INF] Request finished in 36.0222ms 200 text/css
+2021-10-06 13:36:49.248 +02:00 [INF] Request finished in 39.3606ms 200 text/css
+2021-10-06 13:36:49.238 +02:00 [INF] Request finished in 26.9371ms 200 application/javascript
+2021-10-06 13:36:49.234 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 13:36:49.277 +02:00 [INF] Request finished in 66.9438ms 200 application/javascript
+2021-10-06 13:36:52.329 +02:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Get application/x-www-form-urlencoded 211
+2021-10-06 13:36:52.335 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 13:36:52.339 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 13:36:52.356 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnPostAsync - ModelState is "Valid"
+2021-10-06 13:36:53.153 +02:00 [INF] Searched for song Eminem
+2021-10-06 13:36:53.159 +02:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.ContentResult.
+2021-10-06 13:36:53.166 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2021-10-06 13:36:53.171 +02:00 [INF] Executed page /Get in 828.3253ms
+2021-10-06 13:36:53.176 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 13:36:53.181 +02:00 [INF] Request finished in 852.2241ms 200 text/plain; charset=utf-8
+2021-10-06 13:38:31.394 +02:00 [INF] Starting web host
+2021-10-06 13:38:33.945 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 13:38:34.643 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 13:38:34.648 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 13:38:34.651 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 13:38:34.654 +02:00 [INF] Hosting environment: Development
+2021-10-06 13:38:34.658 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 13:38:35.671 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 13:38:35.730 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 13:38:35.783 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 13:38:35.801 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 13:38:35.808 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 13:38:35.814 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 13:38:35.818 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 13:38:35.921 +02:00 [INF] Executed page /Index in 128.614ms
+2021-10-06 13:38:35.926 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 13:38:35.935 +02:00 [INF] Request finished in 269.6067ms 200 text/html; charset=utf-8
+2021-10-06 13:38:35.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 13:38:35.941 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 13:38:35.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 13:38:35.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 13:38:35.936 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 13:38:35.967 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 13:38:35.967 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 13:38:35.974 +02:00 [INF] Request finished in 33.1481ms 200 application/javascript
+2021-10-06 13:38:35.995 +02:00 [INF] Request finished in 58.3784ms 200 text/css
+2021-10-06 13:38:36.003 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 13:38:36.003 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 13:38:36.003 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 13:38:36.010 +02:00 [INF] Request finished in 74.9422ms 200 application/javascript
+2021-10-06 13:38:36.014 +02:00 [INF] Request finished in 78.1159ms 200 text/css
+2021-10-06 13:38:36.019 +02:00 [INF] Request finished in 83.8061ms 200 application/javascript
+2021-10-06 15:00:36.902 +02:00 [INF] Starting web host
+2021-10-06 15:00:37.309 +02:00 [FTL] Host terminated unexpectedly
+System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: '"' is invalid after a value. Expected either ',', '}', or ']'. LineNumber: 31 | BytePositionInLine: 2.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenUntilAfterAllCommentsAreSkipped(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at MusicAppWeb.Program.Main(String[] args) in C:\Users\Mazdak\source\repos\MusicAppWeb\Program.cs:line 30
+2021-10-06 15:01:01.313 +02:00 [INF] Starting web host
+2021-10-06 15:01:04.009 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 15:01:04.738 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 15:01:04.746 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 15:01:04.749 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 15:01:04.752 +02:00 [INF] Hosting environment: Development
+2021-10-06 15:01:04.755 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 15:01:05.552 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 15:01:05.630 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 15:01:05.684 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 15:01:05.701 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 15:01:05.707 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 15:01:05.714 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 15:01:05.717 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 15:01:05.823 +02:00 [INF] Executed page /Index in 130.7228ms
+2021-10-06 15:01:05.828 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 15:01:05.836 +02:00 [INF] Request finished in 289.1133ms 200 text/html; charset=utf-8
+2021-10-06 15:01:05.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 15:01:05.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 15:01:05.848 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 15:01:05.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 15:01:05.846 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 15:01:05.867 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 15:01:05.867 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 15:01:05.891 +02:00 [INF] Request finished in 45.4634ms 200 application/javascript
+2021-10-06 15:01:05.891 +02:00 [INF] Request finished in 46.0328ms 200 text/css
+2021-10-06 15:01:05.892 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 15:01:05.892 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 15:01:05.892 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 15:01:05.902 +02:00 [INF] Request finished in 56.9535ms 200 application/javascript
+2021-10-06 15:01:05.907 +02:00 [INF] Request finished in 59.2952ms 200 text/css
+2021-10-06 15:01:05.912 +02:00 [INF] Request finished in 66.3293ms 200 application/javascript
+2021-10-06 15:01:07.869 +02:00 [INF] Application is shutting down...
+2021-10-06 16:29:01.192 +02:00 [INF] Starting web host
+2021-10-06 16:29:04.341 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 16:29:05.322 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 16:29:05.326 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 16:29:05.331 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 16:29:05.334 +02:00 [INF] Hosting environment: Development
+2021-10-06 16:29:05.337 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 16:29:06.640 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 16:29:06.711 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 16:29:06.776 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 16:29:06.794 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 16:29:06.800 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 16:29:06.807 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 16:29:06.811 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 16:29:06.935 +02:00 [INF] Executed page /Index in 152.0857ms
+2021-10-06 16:29:06.941 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 16:29:06.949 +02:00 [INF] Request finished in 315.0787ms 200 text/html; charset=utf-8
+2021-10-06 16:29:06.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 16:29:06.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 16:29:06.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 16:29:06.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 16:29:06.962 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 16:29:06.985 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 16:29:06.985 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 16:29:06.991 +02:00 [INF] Request finished in 28.7848ms 200 text/css
+2021-10-06 16:29:06.995 +02:00 [INF] Request finished in 32.242ms 200 application/javascript
+2021-10-06 16:29:07.020 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 16:29:07.020 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 16:29:07.021 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 16:29:07.039 +02:00 [INF] Request finished in 77.4784ms 200 application/javascript
+2021-10-06 16:29:07.048 +02:00 [INF] Request finished in 86.1314ms 200 text/css
+2021-10-06 16:29:07.039 +02:00 [INF] Request finished in 77.3068ms 200 application/javascript
+2021-10-06 16:29:10.689 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Get  
+2021-10-06 16:29:10.701 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 16:29:10.709 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 16:29:10.714 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnGet - ModelState is "Valid"
+2021-10-06 16:29:10.718 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 16:29:10.722 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 16:29:10.725 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 16:29:10.738 +02:00 [INF] Executed page /Get in 24.9418ms
+2021-10-06 16:29:10.743 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 16:29:10.747 +02:00 [INF] Request finished in 58.5969ms 200 text/html; charset=utf-8
+2021-10-06 16:29:10.754 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 16:29:10.755 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 16:29:10.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 16:29:10.756 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 16:29:10.768 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 16:29:10.765 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 16:29:10.773 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 16:29:10.777 +02:00 [INF] Request finished in 21.0454ms 200 application/javascript
+2021-10-06 16:29:10.781 +02:00 [INF] Request finished in 26.0899ms 200 text/css
+2021-10-06 16:29:10.785 +02:00 [INF] Request finished in 29.5118ms 200 application/javascript
+2021-10-06 16:29:10.755 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 16:29:10.768 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 16:29:10.812 +02:00 [INF] Request finished in 58.0983ms 200 text/css
+2021-10-06 16:29:10.813 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 16:29:10.825 +02:00 [INF] Request finished in 69.4555ms 200 application/javascript
+2021-10-06 16:29:15.838 +02:00 [INF] Request starting HTTP/2 POST https://localhost:5001/Get application/x-www-form-urlencoded 220
+2021-10-06 16:29:15.844 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 16:29:15.848 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 16:29:15.867 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnPostAsync - ModelState is "Valid"
+2021-10-06 16:29:17.132 +02:00 [ERR] Sequence contains more than one matching element
+2021-10-06 16:29:17.138 +02:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.ContentResult.
+2021-10-06 16:29:17.145 +02:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2021-10-06 16:29:17.151 +02:00 [INF] Executed page /Get in 1298.8832ms
+2021-10-06 16:29:17.155 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 16:29:17.159 +02:00 [INF] Request finished in 1321.8546ms 200 text/plain; charset=utf-8
+2021-10-06 16:30:46.658 +02:00 [INF] Starting web host
+2021-10-06 16:30:49.233 +02:00 [INF] User profile is available. Using 'C:\Users\Mazdak\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-10-06 16:30:49.939 +02:00 [INF] Now listening on: https://localhost:5001
+2021-10-06 16:30:49.946 +02:00 [INF] Now listening on: http://localhost:5000
+2021-10-06 16:30:49.950 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-10-06 16:30:49.953 +02:00 [INF] Hosting environment: Development
+2021-10-06 16:30:49.955 +02:00 [INF] Content root path: C:\Users\Mazdak\source\repos\MusicAppWeb
+2021-10-06 16:30:51.014 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/  
+2021-10-06 16:30:51.073 +02:00 [INF] Executing endpoint '/Index'
+2021-10-06 16:30:51.126 +02:00 [INF] Route matched with {page = "/Index"}. Executing page /Index
+2021-10-06 16:30:51.145 +02:00 [INF] Executing handler method MusicAppWeb.Pages.IndexModel.OnGet - ModelState is "Valid"
+2021-10-06 16:30:51.152 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 16:30:51.159 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 16:30:51.164 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 16:30:51.280 +02:00 [INF] Executed page /Index in 141.5492ms
+2021-10-06 16:30:51.285 +02:00 [INF] Executed endpoint '/Index'
+2021-10-06 16:30:51.295 +02:00 [INF] Request finished in 285.9873ms 200 text/html; charset=utf-8
+2021-10-06 16:30:51.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 16:30:51.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 16:30:51.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 16:30:51.336 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 16:30:51.301 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 16:30:51.359 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 16:30:51.359 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 16:30:51.369 +02:00 [INF] Request finished in 68.9699ms 200 text/css
+2021-10-06 16:30:51.374 +02:00 [INF] Request finished in 72.9405ms 200 application/javascript
+2021-10-06 16:30:51.423 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 16:30:51.423 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 16:30:51.423 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 16:30:51.433 +02:00 [INF] Request finished in 132.3076ms 200 application/javascript
+2021-10-06 16:30:51.429 +02:00 [INF] Request finished in 128.6157ms 200 application/javascript
+2021-10-06 16:30:51.443 +02:00 [INF] Request finished in 142.6837ms 200 text/css
+2021-10-06 16:30:55.835 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/Get  
+2021-10-06 16:30:55.847 +02:00 [INF] Executing endpoint '/Get'
+2021-10-06 16:30:55.856 +02:00 [INF] Route matched with {page = "/Get"}. Executing page /Get
+2021-10-06 16:30:55.861 +02:00 [INF] Executing handler method MusicAppWeb.Pages.GetModel.OnGet - ModelState is "Valid"
+2021-10-06 16:30:55.865 +02:00 [INF] Executed handler method OnGet, returned result .
+2021-10-06 16:30:55.871 +02:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2021-10-06 16:30:55.875 +02:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2021-10-06 16:30:55.888 +02:00 [INF] Executed page /Get in 28.057ms
+2021-10-06 16:30:55.893 +02:00 [INF] Executed endpoint '/Get'
+2021-10-06 16:30:55.898 +02:00 [INF] Request finished in 63.1238ms 200 text/html; charset=utf-8
+2021-10-06 16:30:55.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css  
+2021-10-06 16:30:55.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js  
+2021-10-06 16:30:55.908 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/lib/jquery/dist/jquery.min.js  
+2021-10-06 16:30:55.909 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/js/site.js?v=dLGP40S79Xnx6GqUthRF6NWvjvhQ1nOvdVSwaNcgG18  
+2021-10-06 16:30:55.906 +02:00 [INF] Request starting HTTP/2 GET https://localhost:5001/css/site.css  
+2021-10-06 16:30:55.928 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2021-10-06 16:30:55.932 +02:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\jquery\dist\jquery.min.js'
+2021-10-06 16:30:55.930 +02:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\js\site.js'
+2021-10-06 16:30:55.937 +02:00 [INF] Request finished in 29.3391ms 200 application/javascript
+2021-10-06 16:30:55.942 +02:00 [INF] Request finished in 34.0493ms 200 application/javascript
+2021-10-06 16:30:55.947 +02:00 [INF] Request finished in 37.8581ms 200 application/javascript
+2021-10-06 16:30:55.933 +02:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\css\site.css'
+2021-10-06 16:30:55.928 +02:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\Mazdak\source\repos\MusicAppWeb\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2021-10-06 16:30:55.970 +02:00 [INF] Request finished in 64.9633ms 200 text/css
+2021-10-06 16:30:55.974 +02:00 [INF] Request finished in 69.6191ms 200 text/css
+2021-10-06 16:33:29.068 +02:00 [INF] Application is shutting down...

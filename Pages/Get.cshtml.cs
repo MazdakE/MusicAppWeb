@@ -35,6 +35,7 @@ namespace MusicAppWeb.Pages
                 var song = result.SingleOrDefault(x => x.Artist == SearchTerm.SearchTerm);
                 if (song != null)
                 {
+                    _logger.LogInformation($"Searched for song {song.Artist}");
                     return Content("Playing: " + song.Artist + " - " + song.Title + "\n" + "id: " + song.Id);
                 }
 
@@ -43,6 +44,7 @@ namespace MusicAppWeb.Pages
             }
             catch (Exception e)
             {
+                _logger.LogError(e.Message);
                 return Content("There is more than one " + SearchTerm.SearchTerm);
             }
         }

@@ -31,6 +31,7 @@ namespace MusicAppWeb.Pages
 
         public async Task<IActionResult> OnPost()
         {
+            _logger.LogInformation($"Deleted song with id {Music.Id}");
             await _cosmosDbService.DeleteItemAsync(Music.Id);
             return Content("Successfully deleted");
         }
